@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🏟️ GravityFlow: The Smart Stadium Ecosystem
+GravityFlow is a next-generation web application designed to revolutionize the stadium experience. Built with a focus on real-time synchronization and agentic AI, it bridges the gap between fans, staff, and vendors through a unified "Digital Twin" environment.
 
-## Getting Started
+🚀 Key Features
+🤖 Gemini-Powered GravityBot
+Multilingual Support: Communicates fluently in Hindi, English, and Hinglish.
 
-First, run the development server:
+Contextual Intelligence: Knows your seat number and order status without being told twice.
 
-```bash
+Spatial Actions: Automatically highlights routes to seats on the live radar map based on conversation.
+
+🗺️ Live Radar & Smart Routing
+Heatmap Visualization: Real-time crowd density tracking.
+
+Dynamic Pathfinding: Visual "Green Paths" to guide fans away from congestion.
+
+💳 Universal Commerce & Sync
+Multi-Device Coordination: Orders placed by Fans (Mobile) appear instantly on the Vendor Dashboard (Laptop) without refreshing.
+
+Local Currency Support: Full menu and transaction history in ₹ (INR).
+
+🆘 Integrated Safety Hub
+Seat-to-Steward Alerts: Direct SOS button for immediate assistance.
+
+Emergency Overrides: Stadium-wide alerts that lock UI for safety instructions during incidents.
+
+🛠️ Technical Stack
+Frontend: Next.js 15 (App Router), Tailwind CSS
+
+AI Layer: Google Gemini API
+
+Backend: Node.js Centralized API for Universal State Sync
+
+Framework: Google Antigravity
+
+Design: Glassmorphic Dark Mode UI
+
+📦 Getting Started
+Prerequisites
+Node.js (LTS version)
+
+A valid Gemini API Key
+
+Installation
+Clone the repository:
+
+Bash
+git clone https://github.com/your-username/gravityflow.git
+cd gravityflow
+Install dependencies:
+
+Bash
+npm install
+Set up environment variables:
+Create a .env.local file and add your Gemini API Key:
+
+Code snippet
+GEMINI_API_KEY=your_key_here
+Run the development server:
+
+Bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Access the dashboards:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Fan View: localhost:3000/fan
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Staff View: localhost:3000/staff
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Vendor View: localhost:3000/vendor
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🤖 Built with Google Antigravity
+Developed using Agent-First Engineering principles. We utilized autonomous agents to orchestrate the UI build, verify pathfinding logic, and simulate live stadium traffic for stress testing.
