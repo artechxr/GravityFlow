@@ -87,7 +87,9 @@ export default function StaffPage() {
                         className="w-full bg-slate-950 border border-slate-700 px-4 py-4 rounded-xl mb-4 focus:outline-none focus:ring-1 focus:ring-indigo-500 text-center uppercase tracking-widest text-white font-mono placeholder:text-slate-700 text-sm" 
                     />
                     {error && <p className="text-rose-400 text-xs font-bold mb-4 text-center">{error}</p>}
-                    <button className="w-full bg-indigo-600 text-white font-bold py-4 rounded-xl hover:bg-indigo-500 transition shadow-[0_0_15px_rgba(99,102,241,0.3)] active:scale-95">Authenticate</button>
+                    <button 
+                    aria-label="Secure authentication for staff access"
+                    className="w-full bg-indigo-600 text-white font-bold py-4 rounded-xl hover:bg-indigo-500 transition shadow-[0_0_15px_rgba(99,102,241,0.3)] active:scale-95">Authenticate</button>
                 </form>
             </div>
         </div>
@@ -101,7 +103,7 @@ export default function StaffPage() {
                         <h1 className="text-2xl font-black text-white tracking-tight">Staff <span className="text-indigo-400">Ops</span></h1>
                         <p className="text-[10px] text-slate-500 mt-2 uppercase tracking-[0.2em] font-bold">GravityFlow Command</p>
                     </div>
-                    <Link href="/" className="w-10 h-10 bg-slate-900 rounded-full flex items-center justify-center shadow-inner border border-slate-800 hover:bg-slate-800 transition-colors shrink-0 group">
+                    <Link href="/" aria-label="Return to Home Page" className="w-10 h-10 bg-slate-900 rounded-full flex items-center justify-center shadow-inner border border-slate-800 hover:bg-slate-800 transition-colors shrink-0 group">
                         <Home className="w-4 h-4 text-slate-500 group-hover:text-indigo-400 transition-colors" />
                     </Link>
                 </div>

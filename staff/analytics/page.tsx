@@ -33,7 +33,7 @@ export default function AnalyticsDashboard() {
                     </h1>
                     <p className="text-slate-400 font-medium">Predictive Routing & Crowd Engine Metrics</p>
                 </div>
-                <Link href="/" className="px-6 py-2.5 rounded-full bg-slate-900 border border-slate-700 hover:bg-slate-800 transition-colors text-sm font-bold tracking-wide">
+                <Link href="/" aria-label="Return to Home Page" className="px-6 py-2.5 rounded-full bg-slate-900 border border-slate-700 hover:bg-slate-800 transition-colors text-sm font-bold tracking-wide">
                     Return to Hub
                 </Link>
             </header>
@@ -97,7 +97,7 @@ export default function AnalyticsDashboard() {
                 <div className="bg-slate-900/80 border border-slate-700/50 rounded-[2rem] p-8">
                     <div className="flex items-center justify-between mb-8">
                         <h2 className="text-xl font-black text-white">Timeline Replay</h2>
-                        <button className="flex items-center gap-2 text-sm font-bold text-indigo-400 hover:text-indigo-300 transition-colors">
+                        <button aria-label="Start timeline playback for crowd history" className="flex items-center gap-2 text-sm font-bold text-indigo-400 hover:text-indigo-300 transition-colors">
                             <PlayCircle className="w-5 h-5" /> Start Playback
                         </button>
                     </div>

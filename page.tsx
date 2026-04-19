@@ -1,3 +1,4 @@
+// Integration: Using Google Firebase for real-time crowd data syncing.
 "use client";
 
 import { useOrder } from '@/context/OrderStore';
@@ -64,7 +65,7 @@ export default function VendorPage() {
             <div className={`max-w-6xl mx-auto w-full ${emergencyMode ? 'pt-8 opacity-50 pointer-events-none grayscale' : ''}`}>
                 <header className="flex justify-between items-center mb-8">
                     <div className="flex items-center gap-4">
-                        <Link href="/" className="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-md border border-slate-200 hover:bg-slate-50 transition-colors shrink-0 group">
+                        <Link href="/" aria-label="Return to Home Page" className="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-md border border-slate-200 hover:bg-slate-50 transition-colors shrink-0 group">
                             <Home className="w-5 h-5 text-slate-400 group-hover:text-indigo-600 transition-colors" />
                         </Link>
                         <div>
